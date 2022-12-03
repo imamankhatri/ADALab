@@ -28,17 +28,17 @@ public class pg1 {
 		System.out.println("Enter n");
 		Scanner in = new Scanner(System.in);
 		n=in.nextInt();
-		pg1 a[] = new pg1[n];
+		pg1[] a = new pg1[n];
 		for(i=0;i<n;i++)
 			a[i]=new pg1();
 		for(i=0;i<n;i++)
 			{
-			System.out.println("Enter deatils of student"+(i+1));
+			System.out.println("Enter details of student"+(i+1));
 			a[i].details();
 			}
 		for(i=0;i<n;i++)
 		{
-		System.out.println("Deatils of student"+(i+1));
+		System.out.println("Details of student"+(i+1));
 		a[i].put();
 		}
 	}
